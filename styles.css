@@ -1,0 +1,127 @@
+/*
+    Student Name: bailey
+    File Name: styles.css 
+*/
+
+.header-img {
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.cafe-food {
+	background-image: url(../images/cafe-food.jpg);
+}
+
+.specials {
+	background-image: url(../images/seasons1.avif);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+}
+
+.aboutpic {
+	background-image: url(../images/aboutpic.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+}
+
+.about {
+	color: #BC533B;
+}
+
+.link {
+	color: #8C533B;
+}
+
+.header {
+	margin-top: 10%;
+}
+
+.text-color {
+	color: #C6949D;
+}
+
+.bg-gray {
+	background-color: #575757;
+}
+
+.text-dark-purple {
+	color: #373684;
+}
+
+.menu {
+	position: middle;
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) {
+
+    /* Desktop Viewport: Style rules for form */
+    form {
+        width: auto;
+        margin-bottom: 2%;
+    }
+    
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px; 
+		background-color: #A39083;
+    }
+    
+    .btn {
+        grid-column: 1 / span 2;
+    }
+
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /* Tablet Viewport: Style rule for map */
+    .map {
+        width: 600px;
+        height: 450px;
+    }
+    
+     /* Tablet Viewport: Style rule for form element */
+    form {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* Begin Mobile Styles */
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Style rule for map */
+.map {
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
